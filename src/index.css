@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-cinzel: 'Cinzel', Georgia, serif;
+    
+    --color-forest: #14281E;
+    --color-forest-deep: #0C1A13;
+    --color-palm: #2A4836;
+    --color-gold: #C5A265;
+    --color-gold-light: #DFCA9B;
+    --color-champagne: #F3EBDD;
+    --color-cream: #FAF8F5;
+    --color-ivory: #F5F1E9;
+    --color-charcoal: #1C221F;
+    --color-charcoal-muted: #5C6761;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-charcoal);
+    background-color: var(--color-cream);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A265;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A68446;
+}
+
+/* Luxury animations and utilities */
+.gold-glow {
+  box-shadow: 0 4px 30px rgba(197, 162, 101, 0.15);
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(to bottom, #DFCA9B, #C5A265, transparent) 1;
+}
+
+.frosted-glass-dark {
+  background: rgba(12, 26, 19, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.frosted-glass-light {
+  background: rgba(250, 248, 245, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+

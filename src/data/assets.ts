@@ -1,0 +1,32 @@
+export const ASSETS = {
+  heroBottles: '/assets/images/niraa_hero_bottles_1788861727580.jpg',
+  pureBottle: '/assets/images/niraa_pure_bottle_1788861770485.jpg',
+  giftBox: '/assets/images/niraa_gift_box_1788861800189.jpg',
+  palmHarvest: '/assets/images/khajur_tree_sunrise_1788865032082.jpg',
+  khajurHarvest: '/assets/images/khajur_tree_sunrise_1788865032082.jpg',
+  mangoLime: '/assets/images/niraa_mango_lime_1788861955441.jpg',
+  crystalPour: '/assets/images/niraa_crystal_pour_1788861986271.jpg',
+  pourGlass: '/assets/images/niraa_crystal_pour_1788861986271.jpg',
+  harvestArtisan: '/assets/images/khajur_tree_sunrise_1788865032082.jpg',
+  giftSet: '/assets/images/niraa_gift_box_1788861800189.jpg',
+  // New Ultra-Luxury Khajur Tree & Reserve Photography
+  khajurSunrise: '/assets/images/khajur_tree_sunrise_1788865032082.jpg',
+  khajurCoupe: '/assets/images/khajur_crystal_coupe_1788865047142.jpg',
+  khajurCrystalCoupe: '/assets/images/khajur_crystal_coupe_1788865047142.jpg',
+  khajurChampagne: '/assets/images/khajur_champagne_reserve_1788865063384.jpg',
+  khajurRoyalBox: '/assets/images/khajur_royal_box_1788865083086.jpg',
+  khajurEstate: '/assets/images/khajur_tree_sunrise_1788865032082.jpg',
+  // Luxury curated high-res imagery for royal heritage, dining & lifestyle
+  royalPalace: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=85',
+  sommelierTasting: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=85',
+  resortLifestyle: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=80',
+  fineDining: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80',
+  wellnessMorning: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1000&q=80',
+  palmLeavesAesthetic: '/assets/images/khajur_tree_sunrise_1788865032082.jpg',
+  khajurLeavesAesthetic: '/assets/images/khajur_tree_sunrise_1788865032082.jpg',
+  datesHarvest: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=1000&q=80',
+  dubaiSkyline: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=80',
+  crystalDecanter: 'https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=1000&q=80',
+  // Universal infallible fallback image
+  fallbackImage: '/assets/images/khajur_crystal_coupe_1788865047142.jpg',
+};
